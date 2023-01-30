@@ -1,26 +1,26 @@
 <script>
   let name = "afa students";
 
-  let n1 = 9;
-  let n2 = 7;
+  //   let n1 = 9;
+  //   let n2 = 7;
 
-  let listaCompra = [
-    "leche",
-    "pan",
-    "patatas",
-    "Papel de aluminio",
-    "satélites",
-  ];
+  //   let listaCompra = [
+  //     "leche",
+  //     "pan",
+  //     "patatas",
+  //     "Papel de aluminio",
+  //     "satélites",
+  //   ];
 
-  let listaCompraFruta = [
-    {
-      nombre: "fresas",
-      emoji: "🍓",
-      cantidad: "1Kg",
-    },
-    { nombre: "kiwis", emoji: "🥝", cantidad: "4uds" },
-    { nombre: "naranjas", emoji: "🍊", cantidad: "una malla" },
-  ];
+  //   let listaCompraFruta = [
+  //     {
+  //       nombre: "fresas",
+  //       emoji: "🍓",
+  //       cantidad: "1Kg",
+  //     },
+  //     { nombre: "kiwis", emoji: "🥝", cantidad: "4uds" },
+  //     { nombre: "naranjas", emoji: "🍊", cantidad: "una malla" },
+  //   ];
 
   let range = { min: 1, max: 900 };
   let delta = range.max - range.min;
@@ -40,12 +40,12 @@
 <main>
   <h1>Hello {name}!</h1>
   <!-- <p>Visit the <a href="https://svelte.dev/tutorial">Svelte tutorial</a> to learn how to build Svelte apps.</p> -->
-
+  <!-- 
   {#if n1 > n2}
     <p>El primer número es mayor que el segundo</p>
   {:else}
     <p>El primer número es menor que el segundo</p>
-  {/if}
+  {/if} -->
 
   <!-- <h2>mi lista de la compra:</h2>
 
